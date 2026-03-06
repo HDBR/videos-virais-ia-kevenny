@@ -146,13 +146,19 @@
   /* ─── HERO ─── */
   .hero {
     background: var(--dark);
-    padding: 60px 20px 56px;
+    padding: 60px 20px;
     position: relative;
     overflow: hidden;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-inner {
     max-width: 860px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
